@@ -1,45 +1,3 @@
-<template>
-    <div>
-        <!-- Barra di testo per inserire la parola chiave -->
-        <input 
-            type="text" 
-            v-model="searchQuery" 
-            placeholder="Cerca..." 
-            @input="onSearchInput" 
-        />
-
-        <!-- Componente Tags per filtrare con le tag -->
-        <Tags 
-            :tags="tags" 
-            :selectedTag="selectedTag" 
-            @tag-selected="filterByTag" 
-        />
-
-        <!-- Contenitore per le cards filtrate -->
-        <div class="links-container">
-            <div 
-                v-for="link in filteredLinks" 
-                :key="link.id" 
-                class="card bg-secondary text-dar"
-            >
-                <h3>{{ link.title }}</h3>
-                <p>{{ link.description }}</p>
-                <a class="text-warning" :href="link.url" target="_blank">Visita</a>
-                <!-- Visualizza le tag della card -->
-                <div class="card-tags">
-                    <span 
-                        v-for="tag in link.tags" 
-                        :key="tag" 
-                        class="card-tag"
-                    >
-                        {{ tag }}
-                    </span>
-                </div>
-            </div>
-        </div>
-    </div>
-</template>
-
 <script>
 import { tags } from '../data/tagsData'; // Importa le tag dal file tagsData.js
 import Tags from '../components/Tags.vue'; // Importa il componente Tags
@@ -82,7 +40,7 @@ export default {
         },
         filterByTag(tag) {
             // Disattiva la ricerca quando una tag viene selezionata
-            this.searchQuery = ''; 
+            this.searchQuery = '';
             this.selectedTag = tag; // Imposta la tag selezionata
             this.filterLinks(); // Aggiorna il filtraggio
         }
@@ -90,30 +48,47 @@ export default {
 }
 </script>
 
+<template>
+    <div class="container">
+        <div class="row sticky-container p-5">
+            <div class="col-12">
+                <input type="text" v-model="searchQuery" placeholder="Cerca..." @input="onSearchInput" />
+            </div>
+            <div class="col-12">
+                <Tags :tags="tags" :selectedTag="selectedTag" @tag-selected="filterByTag" />
+            </div>
+        </div>
+        <!-- Barra di testo per inserire la parola chiave -->
+
+        <!-- Componente Tags per filtrare con le tag -->
+        <div class="row">
+            <div class="col-12">
+                <div class="links-container">
+                    <div v-for="link in filteredLinks" :key="link.id" class="card bg-secondary text-dar mb-5">
+                        <h3>{{ link.title }}</h3>
+                        <p>{{ link.description }}</p>
+                        <a class="text-warning" :href="link.url" target="_blank">Visita</a>
+                        <!-- Visualizza le tag della card -->
+                        <div class="card-tags">
+                            <span v-for="tag in link.tags" :key="tag" class="card-tag">
+                                {{ tag }}
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contenitore per le cards filtrate -->
+    </div>
+</template>
+
+
 <style scoped>
-.links-container {
+.sticky-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
-}
-
-.card {
-    border: 1px solid #ddd;
-    padding: 16px;
-    border-radius: 8px;
-    width: 200px;
-}
-
-.card-tags {
-    margin-top: 8px;
-}
-
-.card-tag {
-    display: inline-block;
-    margin-right: 5px;
-    background-color: #f0f0f0;
-    padding: 3px 6px;
-    border-radius: 4px;
-    font-size: 12px;
+    background-color: #1d1d1d;
 }
 </style>
