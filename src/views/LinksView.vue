@@ -1,3 +1,45 @@
+<template>
+    <div>
+        <!-- Barra di testo per inserire la parola chiave -->
+        <input 
+            type="text" 
+            v-model="searchQuery" 
+            placeholder="Cerca..." 
+            @input="onSearchInput" 
+        />
+
+        <!-- Componente Tags per filtrare con le tag -->
+        <Tags 
+            :tags="tags" 
+            :selectedTag="selectedTag" 
+            @tag-selected="filterByTag" 
+        />
+
+        <!-- Contenitore per le cards filtrate -->
+        <div class="links-container">
+            <div 
+                v-for="link in filteredLinks" 
+                :key="link.id" 
+                class="card bg-secondary text-dar"
+            >
+                <h3>{{ link.title }}</h3>
+                <p>{{ link.description }}</p>
+                <a class="text-warning" :href="link.url" target="_blank">Visita</a>
+                <!-- Visualizza le tag della card -->
+                <div class="card-tags">
+                    <span 
+                        v-for="tag in link.tags" 
+                        :key="tag" 
+                        class="card-tag"
+                    >
+                        {{ tag }}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
 <script>
 import { tags } from '../data/tagsData'; // Importa le tag dal file tagsData.js
 import Tags from '../components/Tags.vue'; // Importa il componente Tags
@@ -26,6 +68,11 @@ export default {
             .catch(error => console.error('Errore nel caricamento dei dati:', error));
     },
     methods: {
+        onSearchInput() {
+            // Disattiva la tag selezionata quando viene digitato qualcosa nella barra di ricerca
+            this.selectedTag = '';
+            this.filterLinks();
+        },
         filterLinks() {
             const query = this.searchQuery.toLowerCase();
             this.filteredLinks = this.links.filter(link =>
@@ -34,39 +81,14 @@ export default {
             );
         },
         filterByTag(tag) {
+            // Disattiva la ricerca quando una tag viene selezionata
+            this.searchQuery = ''; 
             this.selectedTag = tag; // Imposta la tag selezionata
-            this.filterLinks(); // Aggiorna il filtraggio quando una tag viene selezionata
+            this.filterLinks(); // Aggiorna il filtraggio
         }
     }
 }
 </script>
-
-
-
-<template>
-    <div>
-        <!-- Barra di testo per inserire la parola chiave -->
-        <input type="text" v-model="searchQuery" placeholder="Cerca..." @input="filterLinks" />
-
-        <!-- Componente Tags per filtrare con le tag -->
-        <Tags :tags="tags" :selectedTag="selectedTag" @tag-selected="filterByTag" />
-
-        <!-- Contenitore per le cards filtrate -->
-        <div class="links-container">
-            <div v-for="link in filteredLinks" :key="link.id" class="card">
-                <h3>{{ link.title }}</h3>
-                <p>{{ link.description }}</p>
-                <a :href="link.url" target="_blank">Visita</a>
-                <!-- Visualizza le tag della card -->
-                <div class="card-tags">
-                    <span v-for="tag in link.tags" :key="tag" class="card-tag">{{ tag }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</template>
-
-
 
 <style scoped>
 .links-container {

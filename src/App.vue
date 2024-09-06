@@ -2,7 +2,6 @@
 
 </script>
 
-
 <template>
   <div class="container-fluid bg-dark py-4">
 
