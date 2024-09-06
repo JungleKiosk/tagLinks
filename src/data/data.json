@@ -12,6 +12,132 @@
       "url": "https://github.com/JungleKiosk",
       "description": "Descrizione del secondo link",
       "tags": ["secondo", "link"]
+    },
+    {
+      "id": 3,
+      "title": "JavaScript Guide",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
+      "description": "Guida ufficiale di JavaScript su MDN.",
+      "tags": ["JavaScript", "programmazione"]
+    },
+    {
+      "id": 4,
+      "title": "Python Documentation",
+      "url": "https://docs.python.org/3/",
+      "description": "Documentazione ufficiale di Python.",
+      "tags": ["Python", "linguaggio di programmazione"]
+    },
+    {
+      "id": 5,
+      "title": "Vue.js Documentation",
+      "url": "https://vuejs.org/v2/guide/",
+      "description": "Guida ufficiale di Vue.js per lo sviluppo di applicazioni web.",
+      "tags": ["Vue.js", "framework"]
+    },
+    {
+      "id": 6,
+      "title": "React Tutorial",
+      "url": "https://reactjs.org/tutorial/tutorial.html",
+      "description": "Tutorial ufficiale per imparare React.",
+      "tags": ["React", "JavaScript"]
+    },
+    {
+      "id": 7,
+      "title": "Java Documentation",
+      "url": "https://docs.oracle.com/en/java/",
+      "description": "Documentazione ufficiale di Java da Oracle.",
+      "tags": ["Java", "programmazione"]
+    },
+    {
+      "id": 8,
+      "title": "C# Guide",
+      "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
+      "description": "Guida ufficiale di Microsoft per il linguaggio C#.",
+      "tags": ["C#", "linguaggio di programmazione"]
+    },
+    {
+      "id": 9,
+      "title": "Ruby on Rails Guides",
+      "url": "https://guides.rubyonrails.org/",
+      "description": "Guida ufficiale per sviluppatori Ruby on Rails.",
+      "tags": ["Ruby", "Rails"]
+    },
+    {
+      "id": 10,
+      "title": "PHP Manual",
+      "url": "https://www.php.net/manual/en/",
+      "description": "Manuale ufficiale per lo sviluppo in PHP.",
+      "tags": ["PHP", "programmazione web"]
+    },
+    {
+      "id": 11,
+      "title": "Swift Programming Language",
+      "url": "https://developer.apple.com/swift/",
+      "description": "Risorse ufficiali Apple per il linguaggio di programmazione Swift.",
+      "tags": ["Swift", "programmazione"]
+    },
+    {
+      "id": 12,
+      "title": "Kotlin Documentation",
+      "url": "https://kotlinlang.org/docs/home.html",
+      "description": "Documentazione ufficiale di Kotlin.",
+      "tags": ["Kotlin", "Android"]
+    },
+    {
+      "id": 13,
+      "title": "Go Programming Language",
+      "url": "https://golang.org/doc/",
+      "description": "Documentazione ufficiale per il linguaggio Go.",
+      "tags": ["Go", "programmazione"]
+    },
+    {
+      "id": 14,
+      "title": "Rust Language Documentation",
+      "url": "https://doc.rust-lang.org/",
+      "description": "Guida ufficiale per il linguaggio di programmazione Rust.",
+      "tags": ["Rust", "sistemi"]
+    },
+    {
+      "id": 15,
+      "title": "TypeScript Handbook",
+      "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
+      "description": "Manuale ufficiale di TypeScript.",
+      "tags": ["TypeScript", "JavaScript"]
+    },
+    {
+      "id": 16,
+      "title": "Scala Documentation",
+      "url": "https://docs.scala-lang.org/",
+      "description": "Documentazione ufficiale di Scala.",
+      "tags": ["Scala", "JVM"]
+    },
+    {
+      "id": 17,
+      "title": "Perl Programming",
+      "url": "https://www.perl.org/docs.html",
+      "description": "Risorse per imparare Perl.",
+      "tags": ["Perl", "programmazione"]
+    },
+    {
+      "id": 18,
+      "title": "Elixir Documentation",
+      "url": "https://elixir-lang.org/docs.html",
+      "description": "Documentazione ufficiale del linguaggio Elixir.",
+      "tags": ["Elixir", "funzionale"]
+    },
+    {
+      "id": 19,
+      "title": "Shell Scripting Guide",
+      "url": "https://www.shellscript.sh/",
+      "description": "Guida pratica per scripting di shell.",
+      "tags": ["Shell", "scripting"]
+    },
+    {
+      "id": 20,
+      "title": "Haskell Language Documentation",
+      "url": "https://www.haskell.org/documentation/",
+      "description": "Guida e documentazione per Haskell.",
+      "tags": ["Haskell", "funzionale"]
     }
   ]
   
