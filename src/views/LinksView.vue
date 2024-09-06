@@ -12,8 +12,8 @@ export default {
             searchQuery: '',
             links: [],
             filteredLinks: [],
-            tags, // Aggiungi le tag al data del componente
-            selectedTag: ''
+            tags,
+            selectedTag: '' // Stato per la tag selezionata
         };
     },
     created() {
@@ -34,12 +34,14 @@ export default {
             );
         },
         filterByTag(tag) {
-            this.selectedTag = tag;
+            this.selectedTag = tag; // Imposta la tag selezionata
             this.filterLinks(); // Aggiorna il filtraggio quando una tag viene selezionata
         }
     }
 }
 </script>
+
+
 
 
 <template>
@@ -48,7 +50,7 @@ export default {
         <input type="text" v-model="searchQuery" placeholder="Cerca..." @input="filterLinks" />
 
         <!-- Componente Tags per filtrare con le tag -->
-        <Tags :tags="tags" @tag-selected="filterByTag" />
+        <Tags :tags="tags" :selectedTag="selectedTag" @tag-selected="filterByTag" />
 
         <!-- Contenitore per le cards filtrate -->
         <div class="links-container">
@@ -63,4 +65,17 @@ export default {
 
 
 
-<style></style>
+<style scoped>
+.links-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    width: 200px;
+}
+</style>
