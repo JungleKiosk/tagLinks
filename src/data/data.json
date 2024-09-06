@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Link 1",
+        "url": "https://github.com/JungleKiosk",
+        "description": "Descrizione del primo link"
+    },
+    {
+        "id": 2,
+        "title": "Link 2",
+        "url": "https://github.com/JungleKiosk",
+        "description": "Descrizione del secondo link"
+    }
+]
