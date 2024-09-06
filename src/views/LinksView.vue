@@ -30,7 +30,7 @@ export default {
             const query = this.searchQuery.toLowerCase();
             this.filteredLinks = this.links.filter(link =>
                 (link.title.toLowerCase().includes(query) || link.description.toLowerCase().includes(query)) &&
-                (!this.selectedTag || link.description.toLowerCase().includes(this.selectedTag.toLowerCase()))
+                (!this.selectedTag || link.tags.includes(this.selectedTag))
             );
         },
         filterByTag(tag) {
@@ -40,7 +40,6 @@ export default {
     }
 }
 </script>
-
 
 
 
@@ -58,6 +57,10 @@ export default {
                 <h3>{{ link.title }}</h3>
                 <p>{{ link.description }}</p>
                 <a :href="link.url" target="_blank">Visita</a>
+                <!-- Visualizza le tag della card -->
+                <div class="card-tags">
+                    <span v-for="tag in link.tags" :key="tag" class="card-tag">{{ tag }}</span>
+                </div>
             </div>
         </div>
     </div>
@@ -77,5 +80,18 @@ export default {
     padding: 16px;
     border-radius: 8px;
     width: 200px;
+}
+
+.card-tags {
+    margin-top: 8px;
+}
+
+.card-tag {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #f0f0f0;
+    padding: 3px 6px;
+    border-radius: 4px;
+    font-size: 12px;
 }
 </style>
