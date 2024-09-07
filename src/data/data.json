@@ -1,143 +1,142 @@
 [
-    {
+  {
       "id": 1,
-      "title": "Link 1",
-      "url": "https://github.com/JungleKiosk",
-      "description": "Descrizione del primo link",
-      "tags": ["primo", "link"]
-    },
-    {
+      "title": "Streambatch",
+      "url": "https://www.streambatch.io/",
+      "description": "Piattaforma per l'elaborazione automatizzata dei dati satellitari.",
+      "tags": ["satellite", "automazione"]
+  },
+  {
       "id": 2,
-      "title": "Link 2",
-      "url": "https://github.com/JungleKiosk",
-      "description": "Descrizione del secondo link",
-      "tags": ["secondo", "link"]
-    },
-    {
+      "title": "NDVI from First Principles",
+      "url": "https://www.streambatch.io/knowledge/ndvi-from-first-principles",
+      "description": "Concetti di base dell'NDVI e del monitoraggio delle colture.",
+      "tags": ["NDVI", "agricoltura"]
+  },
+  {
       "id": 3,
-      "title": "JavaScript Guide",
-      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide",
-      "description": "Guida ufficiale di JavaScript su MDN.",
-      "tags": ["JavaScript", "programmazione"]
-    },
-    {
+      "title": "NDVI Analysis",
+      "url": "https://eos.com/make-an-analysis/ndvi/",
+      "description": "Guida all'analisi NDVI per il monitoraggio delle colture.",
+      "tags": ["NDVI", "analisi"]
+  },
+  {
       "id": 4,
-      "title": "Python Documentation",
-      "url": "https://docs.python.org/3/",
-      "description": "Documentazione ufficiale di Python.",
-      "tags": ["Python", "linguaggio di programmazione"]
-    },
-    {
+      "title": "Index Database",
+      "url": "https://www.indexdatabase.de/db/i.php",
+      "description": "Database di indici per il telerilevamento.",
+      "tags": ["telerilevamento", "database"]
+  },
+  {
       "id": 5,
-      "title": "Vue.js Documentation",
-      "url": "https://vuejs.org/v2/guide/",
-      "description": "Guida ufficiale di Vue.js per lo sviluppo di applicazioni web.",
-      "tags": ["Vue.js", "framework"]
-    },
-    {
+      "title": "Video: NDVI and Remote Sensing",
+      "url": "https://www.youtube.com/watch?v=3Xn21RT-y7Y&t=845s",
+      "description": "Video su NDVI e il telerilevamento.",
+      "tags": ["NDVI", "video"]
+  },
+  {
       "id": 6,
-      "title": "React Tutorial",
-      "url": "https://reactjs.org/tutorial/tutorial.html",
-      "description": "Tutorial ufficiale per imparare React.",
-      "tags": ["React", "JavaScript"]
-    },
-    {
+      "title": "Video: Machine Learning for Crop Yield Prediction",
+      "url": "https://www.youtube.com/watch?v=vGOvUoqn_M8",
+      "description": "Video sull'uso del machine learning per la previsione del raccolto.",
+      "tags": ["machine learning", "agricoltura"]
+  },
+  {
       "id": 7,
-      "title": "Java Documentation",
-      "url": "https://docs.oracle.com/en/java/",
-      "description": "Documentazione ufficiale di Java da Oracle.",
-      "tags": ["Java", "programmazione"]
-    },
-    {
+      "title": "GitHub: Crop Yield Prediction Using Machine Learning",
+      "url": "https://github.com/611noorsaeed/Crop-Yield-Prediction-Using-Machin-Learning-Python/blob/main/CropYield-Prediction.ipynb",
+      "description": "Codice per la previsione del raccolto con machine learning.",
+      "tags": ["machine learning", "Python"]
+  },
+  {
       "id": 8,
-      "title": "C# Guide",
-      "url": "https://docs.microsoft.com/en-us/dotnet/csharp/",
-      "description": "Guida ufficiale di Microsoft per il linguaggio C#.",
-      "tags": ["C#", "linguaggio di programmazione"]
-    },
-    {
+      "title": "OpenTopography Raster Data",
+      "url": "https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.2",
+      "description": "Dati raster da OpenTopography.",
+      "tags": ["topografia", "dati raster"]
+  },
+  {
       "id": 9,
-      "title": "Ruby on Rails Guides",
-      "url": "https://guides.rubyonrails.org/",
-      "description": "Guida ufficiale per sviluppatori Ruby on Rails.",
-      "tags": ["Ruby", "Rails"]
-    },
-    {
+      "title": "Corine Land Cover",
+      "url": "https://groupware.sinanet.isprambiente.it/uso-copertura-e-consumo-di-suolo/library/copertura-del-suolo/corine-land-cover",
+      "description": "Informazioni sulla copertura del suolo da Corine Land Cover.",
+      "tags": ["copertura del suolo", "Corine"]
+  },
+  {
       "id": 10,
-      "title": "PHP Manual",
-      "url": "https://www.php.net/manual/en/",
-      "description": "Manuale ufficiale per lo sviluppo in PHP.",
-      "tags": ["PHP", "programmazione web"]
-    },
-    {
+      "title": "Humanitarian Data Exchange Dataset",
+      "url": "https://data.humdata.org/dataset",
+      "description": "Dataset di scambio di dati umanitari.",
+      "tags": ["dati umanitari", "dataset"]
+  },
+  {
       "id": 11,
-      "title": "Swift Programming Language",
-      "url": "https://developer.apple.com/swift/",
-      "description": "Risorse ufficiali Apple per il linguaggio di programmazione Swift.",
-      "tags": ["Swift", "programmazione"]
-    },
-    {
+      "title": "Terra IPUMS",
+      "url": "https://terra.ipums.org/",
+      "description": "Dati socio-demografici da Terra IPUMS.",
+      "tags": ["socio-demografia", "IPUMS"]
+  },
+  {
       "id": 12,
-      "title": "Kotlin Documentation",
-      "url": "https://kotlinlang.org/docs/home.html",
-      "description": "Documentazione ufficiale di Kotlin.",
-      "tags": ["Kotlin", "Android"]
-    },
-    {
+      "title": "FAO Data Catalog",
+      "url": "https://data.apps.fao.org/map/catalog/srv/ita/catalog.search#/home",
+      "description": "Catalogo dati FAO.",
+      "tags": ["FAO", "agricoltura"]
+  },
+  {
       "id": 13,
-      "title": "Go Programming Language",
-      "url": "https://golang.org/doc/",
-      "description": "Documentazione ufficiale per il linguaggio Go.",
-      "tags": ["Go", "programmazione"]
-    },
-    {
+      "title": "EU C-Factor Cover Management",
+      "url": "https://esdac.jrc.ec.europa.eu/content/cover-management-factor-c-factor-eu#tabs-0-description=0",
+      "description": "Informazioni sul fattore C per la gestione della copertura in EU.",
+      "tags": ["erosione del suolo", "gestione del suolo"]
+  },
+  {
       "id": 14,
-      "title": "Rust Language Documentation",
-      "url": "https://doc.rust-lang.org/",
-      "description": "Guida ufficiale per il linguaggio di programmazione Rust.",
-      "tags": ["Rust", "sistemi"]
-    },
-    {
+      "title": "Slope Length and Steepness Factor (LS Factor)",
+      "url": "https://esdac.jrc.ec.europa.eu/themes/slope-length-and-steepness-factor-ls-factor",
+      "description": "Informazioni sul fattore LS (lunghezza e pendenza) per l'erosione del suolo.",
+      "tags": ["erosione del suolo", "pendenza"]
+  },
+  {
       "id": 15,
-      "title": "TypeScript Handbook",
-      "url": "https://www.typescriptlang.org/docs/handbook/intro.html",
-      "description": "Manuale ufficiale di TypeScript.",
-      "tags": ["TypeScript", "JavaScript"]
-    },
-    {
+      "title": "Soil Erodibility in Europe",
+      "url": "https://esdac.jrc.ec.europa.eu/themes/soil-erodibility-europe",
+      "description": "Dati sull'erodibilità del suolo in Europa.",
+      "tags": ["suolo", "erodibilità"]
+  },
+  {
       "id": 16,
-      "title": "Scala Documentation",
-      "url": "https://docs.scala-lang.org/",
-      "description": "Documentazione ufficiale di Scala.",
-      "tags": ["Scala", "JVM"]
-    },
-    {
+      "title": "Semi-Automatic Classification Plugin",
+      "url": "https://semiautomaticclassificationmanual-v5.readthedocs.io/it/latest/remote_sensing.html",
+      "description": "Manuale del plugin di classificazione semi-automatica per il telerilevamento.",
+      "tags": ["classificazione", "telerilevamento"]
+  },
+  {
       "id": 17,
-      "title": "Perl Programming",
-      "url": "https://www.perl.org/docs.html",
-      "description": "Risorse per imparare Perl.",
-      "tags": ["Perl", "programmazione"]
-    },
-    {
+      "title": "Sentinel-1 Applications",
+      "url": "https://sentiwiki.copernicus.eu/web/s1-applications#S1Applications-LandMonitoring",
+      "description": "Applicazioni Sentinel-1 per il monitoraggio terrestre.",
+      "tags": ["Sentinel", "monitoraggio"]
+  },
+  {
       "id": 18,
-      "title": "Elixir Documentation",
-      "url": "https://elixir-lang.org/docs.html",
-      "description": "Documentazione ufficiale del linguaggio Elixir.",
-      "tags": ["Elixir", "funzionale"]
-    },
-    {
+      "title": "Sentinel-1 VH vs VV Polarizations",
+      "url": "https://forum.step.esa.int/t/sentinel-1-vh-vs-vv-polarizations/20811",
+      "description": "Discussione sulle polarizzazioni VH e VV di Sentinel-1.",
+      "tags": ["Sentinel-1", "polarizzazione"]
+  },
+  {
       "id": 19,
-      "title": "Shell Scripting Guide",
-      "url": "https://www.shellscript.sh/",
-      "description": "Guida pratica per scripting di shell.",
-      "tags": ["Shell", "scripting"]
-    },
-    {
+      "title": "Ratio VH/VV from Sentinel-1",
+      "url": "https://forum.sentinel-hub.com/t/ratio-vh-vv-from-sentinel1/353",
+      "description": "Discussione sul rapporto tra le polarizzazioni VH e VV di Sentinel-1.",
+      "tags": ["Sentinel-1", "polarizzazione"]
+  },
+  {
       "id": 20,
-      "title": "Haskell Language Documentation",
-      "url": "https://www.haskell.org/documentation/",
-      "description": "Guida e documentazione per Haskell.",
-      "tags": ["Haskell", "funzionale"]
-    }
-  ]
-  
+      "title": "SAR Polarimetry",
+      "url": "https://nisar.jpl.nasa.gov/mission/get-to-know-sar/polarimetry/",
+      "description": "Informazioni sulla polarimetria SAR.",
+      "tags": ["SAR", "polarimetria"]
+  }
+]

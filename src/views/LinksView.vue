@@ -50,19 +50,19 @@ export default {
 
 <template>
     <div class="container">
-        <div class="row sticky-container p-5">
-            <div class="col-12">
+        <div class="row justify-content-center sticky-container p-5">
+            <div class="col-12 col-lg-8 mb-3">
                 <input type="text" v-model="searchQuery" placeholder="Cerca..." @input="onSearchInput" />
             </div>
-            <div class="col-12">
+            <div class="col-12 col-lg-8">
                 <Tags :tags="tags" :selectedTag="selectedTag" @tag-selected="filterByTag" />
             </div>
         </div>
         <!-- Barra di testo per inserire la parola chiave -->
 
         <!-- Componente Tags per filtrare con le tag -->
-        <div class="row">
-            <div class="col-12">
+        <div class="row justify-content-center mt-5">
+            <div class="col-12 col-lg-8">
                 <div class="links-container">
                     <div v-for="link in filteredLinks" :key="link.id" class="card bg-secondary text-dar mb-5">
                         <h3>{{ link.title }}</h3>
@@ -70,7 +70,7 @@ export default {
                         <a class="text-warning" :href="link.url" target="_blank">Visita</a>
                         <!-- Visualizza le tag della card -->
                         <div class="card-tags">
-                            <span v-for="tag in link.tags" :key="tag" class="card-tag">
+                            <span v-for="tag in link.tags" :key="tag" class="card-tag mx-2">
                                 {{ tag }}
                             </span>
                         </div>
@@ -91,4 +91,5 @@ export default {
     display: flex;
     background-color: #1d1d1d;
 }
+
 </style>
