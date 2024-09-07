@@ -27,7 +27,6 @@ export default {
     },
     methods: {
         onSearchInput() {
-            // Disattiva la tag selezionata quando viene digitato qualcosa nella barra di ricerca
             this.selectedTag = '';
             this.filterLinks();
         },
@@ -39,12 +38,16 @@ export default {
             );
         },
         filterByTag(tag) {
-            // Disattiva la ricerca quando una tag viene selezionata
             this.searchQuery = '';
-            this.selectedTag = tag; // Imposta la tag selezionata
+            if (this.selectedTag === tag) {
+                this.selectedTag = '';  // Deseleziona la tag se è già selezionata
+            } else {
+                this.selectedTag = tag; // Seleziona la nuova tag
+            }
             this.filterLinks(); // Aggiorna il filtraggio
         }
     }
+
 }
 </script>
 
@@ -52,25 +55,27 @@ export default {
     <div class="container">
         <div class="row justify-content-center sticky-container p-5">
             <div class="col-12 col-lg-8 mb-3">
-                <input type="text" v-model="searchQuery" placeholder="Cerca..." @input="onSearchInput" />
+                <input class="search_bar rounded-pill p-2" type="text" v-model="searchQuery" placeholder="Enter a key word..." @input="onSearchInput" />
             </div>
             <div class="col-12 col-lg-8">
                 <Tags :tags="tags" :selectedTag="selectedTag" @tag-selected="filterByTag" />
             </div>
+            <a href="#header">Go up ^</a>
         </div>
         <!-- Barra di testo per inserire la parola chiave -->
 
         <!-- Componente Tags per filtrare con le tag -->
         <div class="row justify-content-center mt-5">
             <div class="col-12 col-lg-8">
-                <div class="links-container">
-                    <div v-for="link in filteredLinks" :key="link.id" class="card bg-secondary text-dar mb-5">
+                <div class="links_container">
+                    <div v-for="link in filteredLinks" :key="link.id" class="card card_link p-3 text-dar mb-5">
                         <h3>{{ link.title }}</h3>
                         <p>{{ link.description }}</p>
-                        <a class="text-warning" :href="link.url" target="_blank">Visita</a>
+                        <a class="text-warning" :href="link.url" target="_blank">View</a>
                         <!-- Visualizza le tag della card -->
-                        <div class="card-tags">
-                            <span v-for="tag in link.tags" :key="tag" class="card-tag mx-2">
+                        <div class="">
+                            <p>Tags:</p>
+                            <span v-for="tag in link.tags" :key="tag" class="mx-2 card_tags btn rounded-pill">
                                 {{ tag }}
                             </span>
                         </div>
@@ -84,12 +89,5 @@ export default {
 
 
 <style scoped>
-.sticky-container {
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    display: flex;
-    background-color: #1d1d1d;
-}
 
 </style>

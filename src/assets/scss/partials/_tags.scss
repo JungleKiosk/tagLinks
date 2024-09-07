@@ -1,0 +1,71 @@
+.tags-bar-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+a {
+    color: #00ffcc;
+}
+
+.tags-bar-wrapper {
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+/* Stile della scrollbar per il contenitore delle tag */
+.tags-bar-wrapper::-webkit-scrollbar {
+    height: 18px;
+    /* Altezza della scrollbar */
+}
+
+.tags-bar-wrapper::-webkit-scrollbar-track {
+    background: #4800ff;
+    ;
+    /* Colore di sfondo della scrollbar */
+    border-radius: 10px;
+    /* Arrotondamento del contenitore della scrollbar */
+}
+
+.tags-bar-wrapper::-webkit-scrollbar-thumb {
+    background: #00ffcc;
+    /* Colore della thumb della scrollbar */
+    border-radius: 10px;
+    /* Arrotondamento della thumb della scrollbar */
+}
+
+
+
+.tags-bar {
+    display: flex;
+    gap: 10px;
+    padding: 8px;
+}
+
+.tag {
+    cursor: pointer;
+    background-color: #4800ff;
+    color: #00ffcc;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    white-space: nowrap;
+    /* Evita che il testo vada a capo */
+}
+
+.tag-active {
+    background-color: #00ffcc;
+    font-weight: bold;
+    color: #4800ff;
+}
+
+/* 
+.tag-inactive {
+    background-color: #4800ff;
+    color:#00ffcc
+} */

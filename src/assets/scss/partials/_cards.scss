@@ -1,0 +1,24 @@
+.sticky-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    background-color: #1d1d1d;
+}
+
+.search_bar{
+    background-color: #00ffcc;
+    font-weight: bold;
+    color: #3000a8;
+}
+
+.card_link{
+    background-color: #1e0069;
+    color: #00ffcc;
+}
+
+.card_tags{
+    background-color: #4800ff;
+    color: #00ffcc;
+    font-weight: bold;
+}
