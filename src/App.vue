@@ -7,17 +7,17 @@
 
     <div class="row justify-content-center ">
       <div class="col-12 col-lg-3 text-center text-center">
-        <RouterLink active-class="active" to="/">
+        <!-- <RouterLink active-class="active" to="/">
           <button class="rounded-2 btn_bg_green mx-1">
             <span>Home</span>
           </button>
-        </RouterLink>
+        </RouterLink> -->
 
-        <RouterLink active-class="active" to="/links">
+<!--         <RouterLink active-class="active" to="/links">
           <button class="rounded-2 btn_bg_green mx-1">
             <span>Links</span>
           </button>
-        </RouterLink>
+        </RouterLink> -->
 
       </div>
     </div>

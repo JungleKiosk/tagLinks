@@ -53,8 +53,8 @@ export default {
 
 <template>
     <div class="container">
-        <div class="row justify-content-center sticky-container p-5">
-            <div class="col-12 col-lg-8 mb-3">
+        <div class="row justify-content-center sticky-container mt-3">
+            <div class="col-12 col-lg-8 mt-3 mb-3">
                 <input class="search_bar rounded-pill p-2" type="text" v-model="searchQuery" placeholder="Enter a key word..." @input="onSearchInput" />
             </div>
             <div class="col-12 col-lg-8">
@@ -65,10 +65,10 @@ export default {
         <!-- Barra di testo per inserire la parola chiave -->
 
         <!-- Componente Tags per filtrare con le tag -->
-        <div class="row justify-content-center mt-5">
-            <div class="col-12 col-lg-8">
-                <div class="links_container">
-                    <div v-for="link in filteredLinks" :key="link.id" class="card card_link p-3 text-dar mb-5">
+        <div class="row mt-5">
+            <div class="col-12 col-lg-12">
+                <div class="links-container">
+                    <div v-for="link in filteredLinks" :key="link.id" class="card card_link p-3 text-dar mb-3">
                         <h3>{{ link.title }}</h3>
                         <p>{{ link.description }}</p>
                         <a class="text-warning" :href="link.url" target="_blank">View</a>

@@ -3,7 +3,7 @@
     top: 0;
     z-index: 1000;
     display: flex;
-    background-color: #1d1d1d;
+    background-color: #1d1d1de2;
 }
 
 .search_bar{
@@ -15,10 +15,23 @@
 .card_link{
     background-color: #1e0069;
     color: #00ffcc;
+    border: 2px solid #4800ff;
+}
+
+.card_link:hover {
+    transform: scale(1.02); /* Effetto hover per ingrandire leggermente */
 }
 
 .card_tags{
+    margin-bottom: 10px;
     background-color: #4800ff;
     color: #00ffcc;
     font-weight: bold;
 }
+
+.links-container {
+    display: flex;
+    flex-wrap: wrap; /* Permette alle cards di andare a capo se necessario */
+    gap: 16px; /* Spaziatura tra le cards */
+}
+
