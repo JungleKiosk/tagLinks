@@ -16,25 +16,20 @@ a {
     margin-bottom: 16px;
 }
 
-/* Stile della scrollbar per il contenitore delle tag */
+
 .tags-bar-wrapper::-webkit-scrollbar {
     height: 18px;
-    /* Altezza della scrollbar */
 }
 
 .tags-bar-wrapper::-webkit-scrollbar-track {
     background: #4800ff;
-    ;
-    /* Colore di sfondo della scrollbar */
     border-radius: 10px;
-    /* Arrotondamento del contenitore della scrollbar */
 }
 
 .tags-bar-wrapper::-webkit-scrollbar-thumb {
     background: #00ffcc;
-    /* Colore della thumb della scrollbar */
     border-radius: 10px;
-    /* Arrotondamento della thumb della scrollbar */
+
 }
 
 
@@ -55,7 +50,6 @@ a {
     transition: background-color 0.3s;
     display: inline-block;
     white-space: nowrap;
-    /* Evita che il testo vada a capo */
 }
 
 .tag-active {

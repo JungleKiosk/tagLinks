@@ -139,8 +139,8 @@
         "description": "Information on the LS factor (length and steepness) for soil erosion.",
         "tags": [
             "soil erosion",
-            "slope",
             "RUSLE",
+            "slope",
             "ls factor"
         ]
     },
@@ -151,7 +151,8 @@
         "description": "Data on soil erodibility in Europe.",
         "tags": [
             "soil",
-            "erodibility"
+            "erodibility",
+            "k factor"
         ]
     },
     {
@@ -486,6 +487,58 @@
             "EU",
             "erosività della pioggia",
             "dati globali"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "LUCAS project - EU",
+        "url": "https://junglekiosk.github.io/Eurostat_LUCASproject_2022/",
+        "description": "The land use / cover area frame survey (LUCAS) is an in-situ survey in EU.",
+        "tags": [
+            "EU",
+            "LUCAS",
+            "Survey",
+            "Digitalization"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Soili Grid ",
+        "url": "https://soilgrids.org/",
+        "description": "A system for digital soil mapping based on global compilation of soil profile data and environmental layers.",
+        "tags": [
+            "Soil data",
+            "Nitrogen",
+            "Organic Carbon",
+            "Texture",
+            "Bulk density",
+            "Sand",
+            "Clay",
+            "Silt"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Earthe Eplorer - satellite images",
+        "url": "https://earthexplorer.usgs.gov/",
+        "description": "Query and order satellite images, aerial photographs, and cartographic products through the U.S. Geological Survey.",
+        "tags": [
+            "Satellite",
+            "Sentinel",
+            "Landsat"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Suitability Forestry Work ",
+        "url": "https://junglekiosk.github.io/QGIS_forest_suitability/",
+        "description": "Geospatial analysis-based approach to improve forest planning and forest machine management with Ippoliti e Piegai flow.",
+        "tags": [
+            "Ippolito e Piegai",
+            "Slope",
+            "Exposition",
+            "Altitude",
+            "Distance from street"
         ]
     }
 ]
