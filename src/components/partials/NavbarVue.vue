@@ -25,9 +25,9 @@ export default {
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
 
-                <span style="cursor: pointer;" @click="toggleTheme" class="theme-toggle">
+<!--                 <span style="cursor: pointer;" @click="toggleTheme" class="theme-toggle">
                     {{ isDarkMode ? 'Light Mood ☀️' : 'Dark Mood 🌙' }}
-                </span>
+                </span> -->
 
             </div>
         </div>

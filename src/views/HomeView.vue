@@ -145,9 +145,9 @@ export default {
         <!-- Sidebar -->
         <span class="btn btn-secondary m-3" @click="resetAllFilters">cancella filtri &#8634</span> <br>
         <div class="col-6 m-3">
-          <h5>Filtra Parola</h5>
+          <h5>Enter Key word</h5>
           <div class="input-group">
-            <input class="search_bar form-control" type="text" v-model="searchQuery" placeholder="Cerca..."
+            <input class="search_bar form-control" type="text" v-model="searchQuery" placeholder="Search..."
               @input="onSearchInput" />
             <div class="input-group-append">
               <button class="btn btn-secondary" type="button" @click="resetSearchQuery">&#8634</button>
@@ -193,7 +193,7 @@ export default {
         </div> -->
         <div class="row">
           <div class="col-8 m-3">
-            <h5>Filtra Categoria</h5>
+            <h5>Categories Filter</h5>
             <div v-for="group in groupedTags" :key="group.category" class="tag-group">
               <button class="btn btn-secondary w-100 mb-2" @click="toggleCategory(group.category)">
                 {{ group.category }}
@@ -219,10 +219,10 @@ export default {
                   <th>ID</th>
                   <th>Title</th>
                   <th>Description</th>
-                  <th>URL</th>
-                  <th>CU</th>
+                  <th>Link</th>
+                  <!-- <th>CU</th>
                   <th>inspire</th>
-                  <th>Stato</th>
+                  <th>Stato</th> -->
                   <th>Tags</th>
                 </tr>
               </thead>
@@ -234,16 +234,16 @@ export default {
                   <td> <a v-if="link.url" style="color: blue;" :href="link.url" target="_blank">WebSite</a>
                     <span v-else>N/A</span>
                   </td>
-                  <td><span class="badge bg-secondary">{{ link.cu }}</span></td>
-                  <td>
+                  <!-- <td><span class="badge bg-secondary">{{ link.cu }}</span></td> -->
+<!--                   <td>
                     <router-link to="/glossario" class=" text-light">
                       <a class="text-primary" @click="openInspireModal(inspire)">
                         {{ Array.isArray(link.inspire) ? link.inspire.join(', ') : link.inspire
                         }}
                       </a>
                     </router-link>
-                  </td>
-                  <td>
+                  </td> -->
+<!--                   <td>
                     <span>Dati</span> <br>
                     <span class="badge" :class="{
                       'bg-success': link.stato === 'Noti e Accessibili',
@@ -252,7 +252,7 @@ export default {
                     }">
                       {{ link.stato }}
                     </span>
-                  </td>
+                  </td> -->
                   <td>
                     <span v-for="tag in link.tags" :key="tag" class="text-white"
                       :class="selectedTag === tag ? 'badge bg-primary' : 'badge bg-info text-dark mx-1'">
