@@ -1,13 +1,26 @@
-$primary: #22ad96;
-$bg_body: #1d1d1d;
+
+// Dark mode variables
+$bg_color_dark: #303030;
+$text_color_dark: #f5f5f5;
+// Light mode variables
+$bg_color_light: #f3eeee;
+$text_color_light: #000000;
+
+
+$primary: #1bfad5;
+$bg_nav: rgba(40, 40, 40, 0.819);
 $dark: #333333;
 $neutral: #aaaaaa;
 $light: #edf3f5;
-$info: #f2b91e;
+$nav_bg: #cfcfcf;
+$btn: #08064c;
 $info_light: #efd17f;
-$shadow_stack: #13e764;
+$shadow_stack: #13e784;
 $secondary: #c788f3a3;
-$clr_bruise : #3f3a64;
+$clr_bruise : #010e16;
+$card_news_header : #93c5e599;
+$card_news_body : #baddf4;
 $clr_tulip_tree : #efab43;
-$clr_juice_button : #ef6f31;
+$clr_juice_button_2 : #ff6518;
 $lime: #69bf14;
+$clr_juice_button: #44bc84;

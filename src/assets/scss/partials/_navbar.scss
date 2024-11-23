@@ -1,0 +1,38 @@
+@use "./_var.scss" as *;
+
+/* Custom styling for the navbar and links */
+.navbar {
+  background-color: $nav_bg;
+  font-weight: bold;
+}
+
+.navlink {
+  color: $btn;
+  text-decoration: none;
+}
+
+.navlink:hover {
+  color:$lime;
+}
+
+.navlink.active {
+  border-radius: 10px;
+  color:$lime;
+  text-decoration: underline;
+  background-color: $btn;
+  padding: 5px;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: $light !important;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+img {
+  width: 20%;
+}

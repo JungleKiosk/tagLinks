@@ -1,75 +1,50 @@
 @use './../../../node_modules/bootstrap/scss/bootstrap.scss';
+
 @use "./partials/_var.scss" as *;
+@use "./partials/_navbar.scss";
 @use "./partials/_tags.scss";
-@use "./partials/_cards.scss";
+@use "./partials/_links.scss";
 
-body {
-    background-color: $bg_body;
-    color: $light;
-    font-family: 'Nunito', sans-serif;
+body.dark_mode {
+    background-color: $bg_color_dark;
+    color: $text_color_dark;
+  }
+  
+  body.light_mode {
+    background-color: $bg_color_light;
+    color: $text_color_light;
+    .modal-overlay{
+        color:white;
+    }
+  }
+
+a {
+    color:rgb(0, 204, 255);
 }
 
-body::-webkit-scrollbar {
-    width: 10px;
-    background-color: #3000a8;
+
+.sticky_app {
+    background-color: $bg_nav;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-body::-webkit-scrollbar-thumb {
-    background-color: #00ffcc;
-    border-radius: 50px;
-    height: 123px;
-
-
+.sticky_navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-body::-webkit-scrollbar-thumb:hover {
-    background-color: #79ffe4;
-    border-radius: 20px;
+.btn_diagram{
+    background-color:$btn;
 }
 
-body::-webkit-scrollbar-track {
-    border-left: 1px solid #00ffcc;
+.nota{
+    color: rgb(255, 143, 5);
+    font-weight: bold;
 }
 
-#header {
-    background-color: #3000a8;
-
-    .jk {
-        background-color: #4800ff;
-        font-weight: bold
-    }
-
-    .jk:hover {
-        transform: scale(1.1);
-    }
-
-    .badge_bg {
-        background-color: #4800ff;
-        color: #00ffcc;
-        font-weight: bold;
-    }
-
-    .word-slider {
-        overflow: hidden;
-        white-space: nowrap;
-        width: 500px;
-        position: relative;
-        display: flex;
-    }
-
-    .scrolling-text {
-        display: inline-block;
-        color: #00ffcc;
-        padding-left: 100%;
-        animation: scroll-left 5s linear infinite;
-    }
-
-    @keyframes scroll-left {
-        from {
-            transform: translateX(100%);
-        }
-        to {
-            transform: translateX(-100%);
-        }
-    }
+.line{
+    text-decoration: underline;
 }

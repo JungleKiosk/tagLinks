@@ -1,0 +1,544 @@
+[
+    {
+        "id": 1,
+        "title": "Streambatch",
+        "url": "https://www.streambatch.io/",
+        "description": "Platform for automated satellite data processing.",
+        "tags": [
+            "satellite",
+            "automation"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "NDVI from First Principles",
+        "url": "https://www.streambatch.io/knowledge/ndvi-from-first-principles",
+        "description": "Basic concepts of NDVI and crop monitoring.",
+        "tags": [
+            "NDVI",
+            "agriculture"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "NDVI Analysis",
+        "url": "https://eos.com/make-an-analysis/ndvi/",
+        "description": "Guide to NDVI analysis for crop monitoring.",
+        "tags": [
+            "NDVI",
+            "analysis"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Index Database",
+        "url": "https://www.indexdatabase.de/db/i.php",
+        "description": "Index database for remote sensing.",
+        "tags": [
+            "remote sensing",
+            "database"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Video: NDVI and Remote Sensing",
+        "url": "https://www.youtube.com/watch?v=3Xn21RT-y7Y&t=845s",
+        "description": "Video on NDVI and remote sensing.",
+        "tags": [
+            "NDVI",
+            "video"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Video: Machine Learning for Crop Yield Prediction",
+        "url": "https://www.youtube.com/watch?v=vGOvUoqn_M8",
+        "description": "Video on the use of machine learning for crop yield prediction.",
+        "tags": [
+            "machine learning",
+            "agriculture"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "GitHub: Crop Yield Prediction Using Machine Learning",
+        "url": "https://github.com/611noorsaeed/Crop-Yield-Prediction-Using-Machin-Learning-Python/blob/main/CropYield-Prediction.ipynb",
+        "description": "Code for crop yield prediction using machine learning.",
+        "tags": [
+            "machine learning",
+            "Python",
+            "GitHub"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "OpenTopography Raster Data",
+        "url": "https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.2",
+        "description": "Raster data from OpenTopography.",
+        "tags": [
+            "topography",
+            "raster data"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Corine Land Cover",
+        "url": "https://groupware.sinanet.isprambiente.it/uso-copertura-e-consumo-di-suolo/library/copertura-del-suolo/corine-land-cover",
+        "description": "Information on land cover from Corine Land Cover.",
+        "tags": [
+            "land cover",
+            "Corine"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Humanitarian Data Exchange Dataset",
+        "url": "https://data.humdata.org/dataset",
+        "description": "Dataset for humanitarian data exchange.",
+        "tags": [
+            "humanitarian data",
+            "dataset"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Terra IPUMS",
+        "url": "https://terra.ipums.org/",
+        "description": "Socio-demographic data from Terra IPUMS.",
+        "tags": [
+            "socio-demography",
+            "IPUMS"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "FAO Data Catalog",
+        "url": "https://data.apps.fao.org/map/catalog/srv/ita/catalog.search#/home",
+        "description": "FAO data catalog.",
+        "tags": [
+            "FAO",
+            "agriculture"
+        ]
+    },
+    {
+        "id": 13,
+        "title": "EU C-Factor Cover Management",
+        "url": "https://esdac.jrc.ec.europa.eu/content/cover-management-factor-c-factor-eu#tabs-0-description=0",
+        "description": "Information on the C factor for cover management in the EU.",
+        "tags": [
+            "soil erosion",
+            "cover management",
+            "RUSLE",
+            "c factor"
+        ]
+    },
+    {
+        "id": 14,
+        "title": "Slope Length and Steepness Factor (LS Factor)",
+        "url": "https://esdac.jrc.ec.europa.eu/themes/slope-length-and-steepness-factor-ls-factor",
+        "description": "Information on the LS factor (length and steepness) for soil erosion.",
+        "tags": [
+            "soil erosion",
+            "RUSLE",
+            "slope",
+            "ls factor"
+        ]
+    },
+    {
+        "id": 15,
+        "title": "Soil Erodibility in Europe",
+        "url": "https://esdac.jrc.ec.europa.eu/themes/soil-erodibility-europe",
+        "description": "Data on soil erodibility in Europe.",
+        "tags": [
+            "soil",
+            "erodibility",
+            "k factor"
+        ]
+    },
+    {
+        "id": 16,
+        "title": "Semi-Automatic Classification Plugin",
+        "url": "https://semiautomaticclassificationmanual-v5.readthedocs.io/it/latest/remote_sensing.html",
+        "description": "Manual for the semi-automatic classification plugin for remote sensing.",
+        "tags": [
+            "classification",
+            "remote sensing"
+        ]
+    },
+    {
+        "id": 17,
+        "title": "Sentinel-1 Applications",
+        "url": "https://sentiwiki.copernicus.eu/web/s1-applications#S1Applications-LandMonitoring",
+        "description": "Sentinel-1 applications for land monitoring.",
+        "tags": [
+            "Sentinel",
+            "monitoring"
+        ]
+    },
+    {
+        "id": 18,
+        "title": "Sentinel-1 VH vs VV Polarizations",
+        "url": "https://forum.step.esa.int/t/sentinel-1-vh-vs-vv-polarizations/20811",
+        "description": "Discussion on Sentinel-1 VH and VV polarizations.",
+        "tags": [
+            "Sentinel-1",
+            "polarization"
+        ]
+    },
+    {
+        "id": 19,
+        "title": "Ratio VH/VV from Sentinel-1",
+        "url": "https://forum.sentinel-hub.com/t/ratio-vh-vv-from-sentinel1/353",
+        "description": "Discussion on the VH/VV ratio of Sentinel-1 polarizations.",
+        "tags": [
+            "Sentinel-1",
+            "polarization"
+        ]
+    },
+    {
+        "id": 20,
+        "title": "SAR Polarimetry",
+        "url": "https://nisar.jpl.nasa.gov/mission/get-to-know-sar/polarimetry/",
+        "description": "Information on SAR polarimetry.",
+        "tags": [
+            "SAR",
+            "polarimetry"
+        ]
+    },
+    {
+        "id": 21,
+        "title": "Sentinel-1 SAR Acquisition Modes",
+        "url": "https://sentinels.copernicus.eu/en/web/sentinel/technical-guides/sentinel-1-sar/sar-instrument/acquisition-modes",
+        "description": "Technischer Leitfaden für Sentinel-1 SAR-Erfassungsmodi.",
+        "tags": [
+            "Sentinel-1",
+            "SAR",
+            "strumentazione"
+        ]
+    },
+    {
+        "id": 22,
+        "title": "Copernicus Open Access Hub",
+        "url": "https://scihub.copernicus.eu/",
+        "description": "Platform for open access to Sentinel data.",
+        "tags": [
+            "Copernicus",
+            "data",
+            "Sentinel"
+        ]
+    },
+    {
+        "id": 23,
+        "title": "Copernicus Data Space",
+        "url": "https://dataspace.copernicus.eu/",
+        "description": "Portal to access data from the Copernicus program.",
+        "tags": [
+            "Copernicus",
+            "data"
+        ]
+    },
+    {
+        "id": 24,
+        "title": "DataSpace Dashboard",
+        "url": "https://shapps.dataspace.copernicus.eu/dashboard/#/statistics",
+        "description": "Dashboard for statistics and data monitoring of the Copernicus DataSpace.",
+        "tags": [
+            "Copernicus",
+            "dashboard"
+        ]
+    },
+    {
+        "id": 25,
+        "title": "Sentinel-2 Custom Scripts",
+        "url": "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/bands/",
+        "description": "Collection of custom scripts for Sentinel-2.",
+        "tags": [
+            "Sentinel-2",
+            "scripts",
+            "customization"
+        ]
+    },
+    {
+        "id": 26,
+        "title": "Copernicus Open Access Hub",
+        "url": "https://scihub.copernicus.eu/",
+        "description": "Platform for downloading satellite images from the Copernicus program.",
+        "tags": [
+            "ESA",
+            "Copernicus",
+            "download",
+            "satellite"
+        ]
+    },
+    {
+        "id": 27,
+        "title": "Copernicus Data Space Ecosystem",
+        "url": "https://dataspace.copernicus.eu/",
+        "description": "Main site of the Copernicus Data Space for data access and management.",
+        "tags": [
+            "ESA",
+            "Copernicus",
+            "data"
+        ]
+    },
+    {
+        "id": 28,
+        "title": "Copernicus Dashboard Statistics",
+        "url": "https://shapps.dataspace.copernicus.eu/dashboard/#/statistics",
+        "description": "Dashboard for statistics and data monitoring of the Copernicus DataSpace.",
+        "tags": [
+            "ESA",
+            "Copernicus",
+            "dashboard"
+        ]
+    },
+    {
+        "id": 29,
+        "title": "Sentinel-2 Custom Scripts for Bands",
+        "url": "https://custom-scripts.sentinel-hub.com/custom-scripts/sentinel-2/bands/",
+        "description": "Collection of custom scripts for the analysis of Sentinel-2 bands.",
+        "tags": [
+            "ESA",
+            "Sentinel-2",
+            "scripts",
+            "bands"
+        ]
+    },
+    {
+        "id": 30,
+        "title": "Sentinel-2 Bands and Combinations",
+        "url": "https://gisgeography.com/sentinel-2-bands-combinations/",
+        "description": "",
+        "tags": [
+            "ESA",
+            "Sentinel-2",
+            "bands"
+        ]
+    },
+    {
+        "id": 31,
+        "title": "Rainwater Harvesting Information",
+        "url": "https://www.agri-worldsources.com/login",
+        "description": "Access to resources for rainwater harvesting.",
+        "tags": [
+            "agriculture",
+            "rainwater harvesting",
+            "resources"
+        ]
+    },
+    {
+        "id": 32,
+        "title": "WorldClim - Monthly Climate Data (Precipitation)",
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "description": "Monthly averaged precipitation data (12 rasters, one for each month).",
+        "tags": [
+            "WorldClim",
+            "climate",
+            "precipitation"
+        ]
+    },
+    {
+        "id": 33,
+        "title": "WorldClim - Monthly Climate Data (Maximum Temperature)",
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "description": "Monthly averaged maximum temperature data (12 rasters, one for each month).",
+        "tags": [
+            "WorldClim",
+            "climate",
+            "maximum temperature"
+        ]
+    },
+    {
+        "id": 34,
+        "title": "WorldClim - Monthly Climate Data (Minimum Temperature)",
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "description": "Monthly averaged minimum temperature data (12 rasters, one for each month).",
+        "tags": [
+            "WorldClim",
+            "climate",
+            "minimum temperature"
+        ]
+    },
+    {
+        "id": 35,
+        "title": "WorldClim - Monthly Climate Data (Average Temperature)",
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "description": "Monthly averaged average temperature data (12 rasters, one for each month).",
+        "tags": [
+            "WorldClim",
+            "climate",
+            "average temperature"
+        ]
+    },
+    {
+        "id": 36,
+        "title": "WorldClim - Monthly Climate Data (Solar Radiation)",
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "description": "Monthly averaged solar radiation data (12 rasters, one for each month).",
+        "tags": [
+            "WorldClim",
+            "climate",
+            "solar radiation"
+        ]
+    },
+    {
+        "id": 37,
+        "title": "WorldClim - Monthly Climate Data (Vapor Pressure)",
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "description": "Monthly averaged vapor pressure data (12 rasters, one for each month).",
+        "tags": [
+            "WorldClim",
+            "climate",
+            "vapor pressure"
+        ]
+    },
+    {
+        "id": 38,
+        "title": "WorldClim - Monthly Climate Data (Wind Speed)",
+        "url": "https://www.worldclim.org/data/worldclim21.html",
+        "description": "Monthly averaged wind speed data (12 rasters, one for each month).",
+        "tags": [
+            "WorldClim",
+            "climate",
+            "wind speed"
+        ]
+    },
+    {
+        "id": 39,
+        "title": "NASA POWER Data Viewer",
+        "url": "https://power.larc.nasa.gov/data-access-viewer/",
+        "description": "NASA data viewer - Prediction Of Worldwide Energy Resources (POWER).",
+        "tags": [
+            "NASA",
+            "climate",
+            "energy"
+        ]
+    },
+    {
+        "id": 40,
+        "title": "Philippines Hazard Maps",
+        "url": "https://www.phivolcs.dost.gov.ph/index.php/gisweb-hazard-maps",
+        "description": "Hazard maps from the government of the Philippines.",
+        "tags": [
+            "Philippines",
+            "natural hazards",
+            "maps"
+        ]
+    },
+    {
+        "id": 41,
+        "title": "Philippines Water Courses",
+        "url": "https://data.humdata.org/dataset/philippines-water-courses?",
+        "description": "Corsi d'acqua nelle Filippine a scala di 250 km.",
+        "tags": [
+            "Filippine",
+            "acqua",
+            "corsi d'acqua"
+        ]
+    },
+    {
+        "id": 42,
+        "title": "Philippines Land Cover 2015",
+        "url": "https://www.geoportal.gov.ph/",
+        "description": "Dati di copertura del suolo delle Filippine del 2015.",
+        "tags": [
+            "Filippine",
+            "copertura del suolo"
+        ]
+    },
+    {
+        "id": 43,
+        "title": "Philippines Climate Change Indicators",
+        "url": "https://data.humdata.org/dataset/world-bank-climate-change-indicators-for-philippines",
+        "description": "Indicatori di cambiamento climatico della Banca Mondiale per le Filippine.",
+        "tags": [
+            "Filippine",
+            "cambiamento climatico",
+            "indicatori"
+        ]
+    },
+    {
+        "id": 44,
+        "title": "Philippines Rainfall Indicators",
+        "url": "https://data.humdata.org/dataset/phl-rainfall-subnational",
+        "description": "Indicatori di piovosità delle Filippine a livello subnazionale.",
+        "tags": [
+            "Filippine",
+            "pioggia",
+            "indicatori"
+        ]
+    },
+    {
+        "id": 45,
+        "title": "UNI Alinga - Udemy Soil Erosion Dataset",
+        "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.08/cruts.2406270035.v4.08/",
+        "description": "Dataset di erosione del suolo di UNI Alinga.",
+        "tags": [
+            "erosione del suolo",
+            "dataset"
+        ]
+    },
+    {
+        "id": 46,
+        "title": "EU JRC - Global Rainfall Erosivity",
+        "url": "https://esdac.jrc.ec.europa.eu/content/global-rainfall-erosivity#tabs-0-description=1",
+        "description": "Dati sull'erosività della pioggia a livello globale.",
+        "tags": [
+            "EU",
+            "erosività della pioggia",
+            "dati globali"
+        ]
+    },
+    {
+        "id": 47,
+        "title": "LUCAS project - EU",
+        "url": "https://junglekiosk.github.io/Eurostat_LUCASproject_2022/",
+        "description": "The land use / cover area frame survey (LUCAS) is an in-situ survey in EU.",
+        "tags": [
+            "EU",
+            "LUCAS",
+            "Survey",
+            "Digitalization"
+        ]
+    },
+    {
+        "id": 48,
+        "title": "Soili Grid ",
+        "url": "https://soilgrids.org/",
+        "description": "A system for digital soil mapping based on global compilation of soil profile data and environmental layers.",
+        "tags": [
+            "Soil data",
+            "Nitrogen",
+            "Organic Carbon",
+            "Texture",
+            "Bulk density",
+            "Sand",
+            "Clay",
+            "Silt"
+        ]
+    },
+    {
+        "id": 49,
+        "title": "Earthe Eplorer - satellite images",
+        "url": "https://earthexplorer.usgs.gov/",
+        "description": "Query and order satellite images, aerial photographs, and cartographic products through the U.S. Geological Survey.",
+        "tags": [
+            "Satellite",
+            "Sentinel",
+            "Landsat"
+        ]
+    },
+    {
+        "id": 50,
+        "title": "Suitability Forestry Work ",
+        "url": "https://junglekiosk.github.io/QGIS_forest_suitability/",
+        "description": "Geospatial analysis-based approach to improve forest planning and forest machine management with Ippoliti e Piegai flow.",
+        "tags": [
+            "Ippolito e Piegai",
+            "Slope",
+            "Exposition",
+            "Altitude",
+            "Distance from street"
+        ]
+    }
+]

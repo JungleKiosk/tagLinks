@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 
+/* import LinksView from "../views/LinksView.vue" */
 import HomeView from "../views/HomeView.vue"
-import LinksView from "../views/LinksView.vue"
 
 
 /* ------------------------------------------------- */
@@ -13,11 +13,6 @@ const router = createRouter({
             path: "/",
             name: "home",
             component: HomeView
-        },
-        {
-            path: "/links",
-            name: "links",
-            component: LinksView
         }
     ]
 })

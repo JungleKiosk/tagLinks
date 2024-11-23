@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import { tags } from '../data/tagsData';
 import Tags from '../components/Tags.vue'; 
 
@@ -86,3 +86,4 @@ export default {
 
 
 <style scoped></style>
+ -->
